@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+  text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 22px;
+}
+
+p{
+    font-weight: bold;
+}
+
+.oneImage{
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-right: auto;
+}
