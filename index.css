@@ -2,6 +2,8 @@
 h1{
     text-align: center;
   text-transform: uppercase;
+  background-color: #b070169c;
+  margin-top: 10px ;
 }
 
 h2{
@@ -10,15 +12,70 @@ h2{
 }
 
 h3{
-    font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 15px;
 }
 
 p{
-    font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+ font-size: 16px;
+  margin: 15px;
+    
 }
 
 .oneImage{
     margin: 0 auto;
     margin-left: 150px;
     margin-right: auto;
+    width: 80%;
 }
+
+.wpforms-field-label{
+    margin: 0 auto;
+    margin-left: 420px;
+    margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.wpforms-field-medium{
+    margin: 0 auto;
+    margin-left: 420px;
+    margin-right: auto; 
+   font-size: 30px;
+}
+
+
+#wpforms-1870-field_5 {
+    list-style-type: none;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 450px;
+}
+
+  .choice-1,
+  .choice-2,
+  .choice-3 {
+    grid-column: span ;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  #wpforms-submit-1870 {
+    /* נוסיף עיצוב נוסף לכפתור כך שיהיה מראה יפה יותר */
+   
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff22229c;
+    color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translate(730%, 30%);
+  }
