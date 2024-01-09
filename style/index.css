@@ -1,4 +1,3 @@
-
 h1{
     text-align: center;
   text-transform: uppercase;
@@ -66,9 +65,7 @@ p{
     font-weight: bold;
   }
 
-  #wpforms-submit-1870 {
-    /* נוסיף עיצוב נוסף לכפתור כך שיהיה מראה יפה יותר */
-   
+  #wpforms-submit-1870 { /*עיצוב כפתור */
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -78,4 +75,31 @@ p{
     border-radius: 5px;
     cursor: pointer;
     transform: translate(730%, 30%);
+  }
+
+  table{
+    width: 250%;
+    height: 20%;
+  }
+
+  table, tr,td,th{
+    border: 3px solid #00000029; 
+    border-collapse: collapse;
+    margin-left: 220px;
+    margin-right: 100px;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    font-size: 20px;
+ }
+
+.ImgTable{
+  width: 160px;
+  height: 160px;
+}
+
+  caption{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(158 93 9);
   }
