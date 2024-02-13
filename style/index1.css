@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.grid {
+    display: grid;
+}
+
+.body {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#header {
+    grid-area: header;
+    grid-template-columns: 7fr 1fr;
+}
+
+#header #logo {
+    width: 150px;
+    max-height: 120px;
+    margin: 10px;
+    color: white;
+}
+
+#header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-content: center;
+}
+
+#header nav ul li a {
+
+   align-content: space-around; 
+   color: white;
+    font-weight: bold;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+
+#hero {
+    grid-area: hero;
+}
+
+
+/*
+#hero video {
+    width: 50%;
+    height: 50%;
+}
+*/
